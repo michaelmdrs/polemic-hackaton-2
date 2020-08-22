@@ -8,8 +8,8 @@ print('-=' * 10)
 vlr_centavos = int(input('Digite o valor em centavos R$: '))
 vlr_reais = float(input('Digite o valor em reais R$: '))
 
-centavos = 10 * 10
-real = 10 * 10
+centavos = 100
+real = 100
 conversor_moedas = vlr_centavos / centavos
 conversor_reais = vlr_reais * real
 
